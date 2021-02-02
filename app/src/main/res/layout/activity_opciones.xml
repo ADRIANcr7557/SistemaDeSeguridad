@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Opciones">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gobierno" />
+    <TextView
+        android:id="@+id/ediestadistica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Estadisticas de covid"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/butestadistica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="esta"
+        android:text="ver"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/texnumeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numeros de Emergencia"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/butnumeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="num"
+        android:text="ver"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="Centros de atencion"/>
+
+    <Button
+        android:id="@+id/butcentros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="atencion"
+        android:text="ver"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noticias"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/butnoticias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="not"
+        android:text="ver"
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>
